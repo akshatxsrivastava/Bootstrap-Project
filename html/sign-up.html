@@ -1,0 +1,259 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <style>
+      .a {
+        min-height: 600px;
+      }
+      .b {
+        min-height: 100px;
+      }
+      .c {
+        width: 75px;
+
+        height: 0px;
+      }
+      .d {
+        min-height: 500px;
+      }
+      .inp {
+        width: 80%;
+        margin-left: 20%;
+      }
+      .inp1 {
+        width: 80%;
+        margin-left: 2%;
+      }
+      .inpsub {
+        
+        margin-left: 20%;
+      }
+      .bg-mycolor{
+        background: rgb(233, 236, 239);
+      }
+      .bg-mycolor-main{
+            color: rgb(255, 31, 32);
+        }
+        .bg-mycolor1{
+            background-color: rgb(255, 31, 32);
+        }
+        .bg-mycolor2{
+            background-color: rgb(119, 65, 119);
+        }
+        nav ul li a:hover{
+            background-color:  rgb(88, 20, 88);
+        }
+        .mar{
+            margin-top: 30%;
+        }
+        .our-products{
+            background: rgb(236, 236, 236);
+        }
+        .feed{
+          position: fixed;
+          left: 0;
+          top: 400;
+          background-color: green;
+          color: white;
+          z-index: 200;
+        }
+        #bt:hover{
+          background-color: rgb(12, 70, 12);
+        }
+    </style>
+  </head>
+  <body>
+    <a href="/html/feedback.html"><button class="feed border rounded-end fs-3" id="bt"><i class="fa-regular fa-comment"></i></button></a>
+
+    <!-- header-info-start -->
+    <div class="row top text-bg-mycolor text-center py-1">
+        <div class="col-sm-4">
+            <i class="fa-solid fa-envelope"></i
+                ><a href="" class="text-dark text-decoration-none">desirecart@gmail.com</a>
+        </div>
+        <div class="col-sm-4">
+            <i class="fa-solid fa-phone"></i><a href="" class=" text-dark text-decoration-none">+91-9260950609</a>
+
+        </div>
+        <div class="col-sm-4">
+            <a href="#"><i class="fa-brands fa-facebook-f ms-4 text-dark"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter ms-4 text-dark"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram ms-4 text-dark"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube ms-4 text-dark"></i></a>
+        </div>
+    </div>
+    <!-- header-info-end -->
+
+    <!-- header-search-start -->
+    <div class="row text-center mt-4">
+        <div class="col-sm-3 fs-3 pt-2">
+            Desire<b class="bg-mycolor-main">Cart<i class="fa-solid fa-cart-shopping"></i></b>
+        </div>
+        <div class="col-sm-7 ">
+            <div class="input-group w-75 pt-2 ms-4 ps-4">
+                <input type="search" name="" id="" placeholder="search items here" class="form-control border rounded-0 py-2">
+                <span class="input-group-text bg-mycolor1 text-light border rounded-0 "><i class="fa-solid fa-magnifying-glass"></i></span>
+              </div>
+        </div>
+        <div class="col-sm-2 pt-2">
+            <b class="fs-3 bg-mycolor-main "><i class="fa-solid fa-cart-shopping"></i></b>
+        </div>
+    </div>
+    <!-- header-search-end -->
+
+
+    <!-- navbar start  -->
+
+    <div class="row header sticky-top mt-5">
+        <div class="col-sm-3 text-center bg-mycolor2 py-2">
+            <b class="bg-mycolor-main fs-4">DESIRECART</b>
+        </div>
+        <div class="col-sm-9 bg-mycolor2 fs-6">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item ">
+                        <a class="nav-link active text-light " aria-current="page" href="/html/index.html"
+                          ><i class="fa-sharp fa-solid fa-house"></i> HOME</a
+                        >
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-brands fa-product-hunt "></i>PRODUCT
+                        </a>
+                        <ul class="dropdown-menu  bg-mycolor2">
+                          <li><a class="dropdown-item" href="/html/mens.html">Mens</a></li>
+                          <li><a class="dropdown-item" href="/html/womens.html">Womens</a></li>
+                          <li><a class="dropdown-item" href="/html/kids.html">Kids</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light ms-2" href="/html/my-orders.html"><i class="fa-solid fa-cart-shopping"></i>MY ORDERS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light ms-2" href="/html/my-profile.html"><i class="fa-solid fa-user"></i>MY PROFILE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light ms-2" href="/html/customer-supprt.html"><i class="fa-solid fa-phone"></i>CUSTOMER SUPPORT</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link text-light ms-2" href="/html/sign-up.html"><i class="fa-solid fa-user"></i>SIGN UP</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light ms-2" href="/html/sign-in.html"><i class="fa-solid fa-key"></i>SIGN IN</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!-- navbar end  -->
+
+    <div class="container bg-light a">
+      <div class="row">
+        <div class="col-sm-12 b  text-center">
+          <span class="fs-4"
+            >Register <span class="text-danger">Here</span>
+            <div
+              class="border border-1 c mx-auto my-1 bg-danger border-danger"
+            ></div
+          ></span>
+          <span class="text-justify"
+            >You are just one step behind to join the techpile.I promise you to
+            give my best if you will be a <br>part of techpile</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d mt-5">
+          
+
+          <span class="inp"> Name:</span><br />
+          <div class="input-group inp">
+            <i class="input-group-text bg-mycolor"
+              ><i class="fa-solid fa-user"></i
+            ></i>
+            <input type="text" class="form-control border rounded-0" placeholder="enter your name">
+          </div>
+          <br />
+
+          <span class="inp"> Password</span><br />
+          <div class="input-group inp">
+            <i class="input-group-text bg-mycolor"
+              ><i class="fa-solid fa-lock"></i
+            ></i>
+            <input type="password" class="form-control border rounded-0"  placeholder="enter your password">
+          </div>
+          <br />
+          <span class="inp"> Email</span><br />
+          <div class="input-group inp">
+            <i class="input-group-text bg-mycolor"
+              ><i class="fa-solid fa-envelope"></i
+            ></i>
+            <input type="email" class="form-control border rounded-0" placeholder="enter your email" />
+          </div>
+          <br />
+          <div class="custom-control custom-checkbox" style="margin-left: 20%;">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">I Agree to Terms & Privacy Policy</label>
+          </div>
+
+          
+        
+        </div>
+
+        <div class="col-sm-6 d mt-5">
+            
+
+          <span class="inp1"> Mobile:</span><br />
+          <div class="input-group inp1">
+            <i class="input-group-text bg-mycolor"
+              ><i class="fa-solid fa-phone"></i
+            ></i>
+            <input type="text" class="form-control border rounded-0" placeholder="enter your mobile number">
+          </div>
+          <br />
+
+          <span class="inp1"> Confirm Password:</span><br />
+          <div class="input-group inp1">
+            <i class="input-group-text bg-mycolor"
+              ><i class="fa-solid fa-lock"></i
+            ></i>
+            <input type="text" class="form-control border rounded-0" placeholder="confirm your password"/>
+          </div>
+          <br />
+          <span class="inp1"> Upload Image:</span><br />
+          <div class="input-group inp1">
+            <i class="input-group-text bg-mycolor"
+              ><i class="fa-solid fa-file"></i
+            ></i>
+            <input type="file" class="form-control border rounded-0" placeholder="" />
+          </div>
+          <br />
+          <button class="btn btn-danger float-start mt-5">Register Now</button>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/all.css" />
+    <style>
+      .a {
+        min-height: 500px;
+      }
+      .a1 {
+        margin-left: 29%;
+      }
+      .a2 {
+        margin-left: 33%;
+        margin-top: 20px;
+      }
+      .b {
+        width: 100%;
+      }
+      .a3 {
+        margin-left: 39%;
+        margin-top: 20px;
+      }
+      .a4 {
+        margin-left: 34%;
+        margin-top: 20px;
+      }
+      .a5 {
+        margin-left: 43%;
+        margin-top: 20px;
+      }
+      .feed{
+          position: fixed;
+          left: 0;
+          top: 400px;
+          background-color: green;
+          color: white;
+          z-index: 200;
+        }
+        #bt:hover{
+          background-color: rgb(12, 70, 12);
+        }
+    </style>
+  </head>
+  <body>
+    <a href="/html/feedback.html"><button class="feed border rounded-end fs-3" id="bt"><i class="fa-regular fa-comment"></i></button></a>
+    <div class="row">
+      <div class="col-sm-6 bg-light a m-auto mt-5 p-5">
+        <p class="h3 a1"><b> Welcome To DESIRECART</b></p>
+
+        <p class="h6 a2">Login To Acount</p>
+        <br /><br />
+        <form action="">
+          <div class="input-group">
+            <i class="input-group-text text-bg-danger rounded-end rounded-5">
+              <i class="fa-solid fa-envelope"></i
+            ></i>
+            <input
+              type="email"
+              class="form-control rounded-start rounded-5"
+              placeholder=" Enter Your Email"
+            />
+          </div>
+          <br />
+          <div class="input-group">
+            <span class="input-group-text text-bg-danger rounded-end rounded-5">
+              <i class="fa-solid fa-key"></i
+            ></span>
+            <input
+              type="password"
+              class="form-control rounded-start rounded-5"
+              placeholder="Type password"
+            />
+          </div>
+          <br />
+          <input
+            type="submit"
+            value="Sign In"
+            class="btn btn-danger text-light b mt-4 rounded-pill"
+          />
+        </form>
+        <br />
+        <p class="a3 h6">
+          Or <span class="text-danger"> Forget Password</span>
+        </p>
+        <br />
+        <hr />
+        <br />
+        <p class="a4 h6">
+          Don't Have an account?<span class="text-danger"><a href="/html/sign-up.html" class="text-decoration-none text-danger"> Sign Up</a></span>
+        </p>
+      </div>
+    </div>
+    <p class="a5"><b>&copy; DesireCart.</b>All Rights Reserved.</p>
+  </body>
+</html>
